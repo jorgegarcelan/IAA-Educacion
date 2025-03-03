@@ -1,0 +1,93 @@
+Id,ForumId,KernelId,LastForumMessageId,FirstForumMessageId,CreationDate,LastCommentDate,Title,IsSticky,TotalViews,Score,TotalMessages,TotalReplies,feedback_type
+302908,809,,1670877.0,1663249.0,2022-01-24 23:05:57,02/01/2022 00:24:12,[Product Update] Increased session runtimes for notebooks,True,0,43,11,10,product_update
+302113,809,,1678817.0,1658292.0,2022-01-20 22:41:06,02/06/2022 19:56:57,[Notebooks Update] Revised dark theme for the notebooks editor,True,0,16,17,16,product_update
+295394,809,,1641954.0,1619355.0,2021-12-15 21:15:06,01/07/2022 21:12:00,[Product Update] New and improved global navigation bar,True,0,16,3,2,product_update
+295170,809,,1680081.0,1618205.0,2021-12-14 18:50:32,02/07/2022 15:10:43,[Feature Launch]: Save Notebooks to GitHub,True,0,50,61,60,product_launch
+294337,809,,1646927.0,1613404.0,2021-12-09 23:40:36,01/12/2022 07:17:18,[Product Launch] Introducing Community Competitions,True,0,46,18,17,product_launch
+293761,809,,1658582.0,1609010.0,2021-12-06 21:12:06,01/21/2022 06:21:50,[Feature Launch] Automatically update dataset from notebook’s output,True,0,26,7,6,product_launch
+292674,809,,1650637.0,1603871.0,2021-12-02 22:20:41,01/15/2022 07:37:46,[Product Update] Winding down Kaggle’s Dataset Tasks,False,0,16,14,13,product_update
+284614,809,,1632006.0,1567285.0,2021-11-01 18:22:37,12/29/2021 04:08:27,[Product Update] New Discussion Forums for Learn Courses,False,0,15,19,18,product_update
+284587,809,,1678319.0,1567185.0,2021-11-01 16:50:34,02/06/2022 13:05:36,[Notebooks update] Scheduled Notebooks Dataset Pipelines!,True,0,18,12,11,product_update
+273569,809,,1668915.0,1519452.0,2021-09-21 16:09:26,01/30/2022 06:53:17,[Notebooks update] Schedule your notebooks!,False,0,58,47,46,product_update
+272042,809,,1603194.0,1511894.0,2021-09-13 18:48:07,12/02/2021 11:48:19,[Product Update] A New Look for the Notebook Viewer,False,0,25,39,38,product_update
+269953,809,,1548197.0,1501002.0,2021-09-02 20:31:31,10/18/2021 04:22:52,[Feature Launch]: Submit to Competition from Notebook Editor,False,0,19,6,5,product_launch
+269734,809,,1577570.0,1499716.0,2021-09-01 21:34:49,11/10/2021 07:37:05,[Product Update] Competition Submission Active Events,False,0,12,9,8,product_update
+249514,809,,1489584.0,1368626.0,2021-06-28 18:16:05,08/25/2021 05:36:15,[Notebooks update] Save Versions stop on errored cells,False,0,13,18,17,product_update
+246271,809,,1450269.0,1349367.0,2021-06-14 17:40:38,08/05/2021 04:32:24,[Product update] Upgrade to R 4.x,False,0,15,8,7,product_update
+245652,809,,1498378.0,1345643.0,2021-06-11 18:23:47,09/01/2021 00:07:46,[Product Update] The Competitions Listing has a new look,False,0,28,41,40,product_update
+235315,809,,1297910.0,1287194.0,2021-04-28 19:06:55,05/08/2021 12:23:25,[Notebooks update] Sessions now start in “off mode” by default,False,0,16,7,6,product_update
+230748,809,,1680657.0,1263527.0,2021-04-05 13:48:53,02/08/2022 00:26:04,[Feature Launch]: Embedding and Linking Notebooks,False,0,88,43,42,product_launch
+229934,809,,1271055.0,1259312.0,2021-04-01 09:58:16,04/12/2021 08:52:16,[Feature Launch] Google Cloud pretrained ML API access from <Code>,False,0,14,2,1,product_launch
+227024,809,,1377982.0,1243987.0,2021-03-18 16:29:36,07/06/2021 08:31:13,[Notebooks update] Editor upgrades,False,0,26,51,50,product_update
+221448,809,,1599557.0,1214318.0,2021-02-22 18:47:27,11/29/2021 14:29:52,[Feature Launch] Open Notebooks from GitHub,False,0,61,23,22,product_launch
+220834,809,,1259964.0,1210842.0,2021-02-19 18:25:17,04/01/2021 18:39:29,[Notebooks update] New Features and Fixes,False,0,18,4,3,product_update
+214841,809,,1198199.0,1173322.0,2021-01-27 19:52:05,02/12/2021 19:39:42,[Product update] A new way to discover community code in notebooks and scripts on Kaggle,False,0,9,5,4,product_update
+211372,809,,1248532.0,1153382.0,2021-01-14 20:53:32,03/22/2021 16:52:53,[Feature Launch] Attach Datasets to Competitions,False,0,23,7,6,product_launch
+201390,809,,1152565.0,1102230.0,2020-12-04 18:00:36,01/14/2021 09:19:42,[Feature Launch] Train & Deploy Models on Google Cloud AI Platform using TensorFlow Cloud,False,0,16,3,2,product_launch
+199471,809,,1091209.0,1091209.0,2020-11-25 21:26:15,11/25/2020 21:26:15,[Feature Launch] Datasets Creation From Google Cloud Storage,False,0,5,1,0,product_launch
+197538,809,,1142965.0,1081245.0,2020-11-16 23:41:33,01/07/2021 17:32:25,[Product Update] Introducing a redesigned Notebooks listing,False,0,15,28,27,product_update
+195163,809,,1088694.0,1068823.0,2020-11-03 19:13:44,11/23/2020 21:26:39,[Product Update] Increased Resources for Datasets and Kernel Outputs,False,0,22,9,8,product_update
+193925,809,,1632042.0,1064050.0,2020-10-29 16:29:40,12/29/2021 05:25:39,Feature Launch: Active Events for Notebooks Status,False,0,35,26,25,product_launch
+186005,809,,1024470.0,1022920.0,2020-09-22 20:16:13,09/23/2020 22:18:04,[Notebooks update] Update FastAI to V2,False,0,0,5,4,product_update
+177372,809,,1046841.0,985407.0,2020-08-25 17:56:35,10/12/2020 03:25:08,Product Launch: Profile Preview,False,0,19,20,19,product_launch
+176360,809,,996815.0,980261.0,2020-08-21 12:49:14,09/03/2020 15:05:34,[Notebooks update] New Features and Fixes,False,0,24,8,7,product_update
+175835,809,,999041.0,977559.0,2020-08-19 15:01:29,09/05/2020 09:41:35,[Notebooks update] Improved competition submission workflow,False,0,12,12,11,product_update
+174527,809,,1008577.0,969789.0,2020-08-14 00:19:49,09/13/2020 08:20:16,[Notebooks update] Sharing our report on notebooks reliability,False,0,18,8,7,product_update
+174338,809,,969584.0,968771.0,2020-08-13 08:23:49,08/13/2020 19:31:14,Notebooks Update - Failed to save draft.,False,0,0,3,2,product_update
+173801,809,,969296.0,965652.0,2020-08-10 18:41:14,08/13/2020 15:45:14,[Notebooks Update] Notebook Cell Output in “Run All” Logs,False,0,14,12,11,product_update
+173129,809,,1367027.0,962229.0,2020-08-08 00:03:35,06/27/2021 11:58:00,[Notebooks update] More GPU hours - Introducing a “floating” GPU quota,False,0,107,61,60,product_update
+161328,809,,907158.0,900030.0,2020-06-24 15:26:54,06/29/2020 18:05:54,[Notebooks update] Advanced Save Options,False,0,13,10,9,product_update
+161327,809,,900022.0,900022.0,2020-06-24 15:23:07,06/24/2020 15:23:07,[Notebooks update] Get notified of new Docker image releases,False,0,14,1,0,product_update
+159602,809,,1493484.0,891143.0,2020-06-18 00:12:34,08/28/2021 00:09:47,[Feature Launch] Upgrade to Notebooks on Google Cloud for more compute!,False,0,64,166,165,product_launch
+157707,809,,1262811.0,882322.0,2020-06-11 18:08:14,04/04/2021 18:33:39,[Notebooks update] Improved file tree and data previews,False,0,16,23,22,product_update
+152669,809,,944775.0,855439.0,2020-05-20 23:25:51,07/25/2020 10:33:25,[Notebooks update] Less waiting more coding,False,0,39,37,36,product_update
+152480,809,,854513.0,854488.0,2020-05-20 04:05:45,05/20/2020 04:26:48,"[Notebooks update] Load from URL and ""Open in Kaggle"" badge",False,0,17,3,2,product_update
+140872,809,,949740.0,796393.0,2020-04-03 14:58:58,07/28/2020 21:45:24,Feature Launch: Recently Viewed Items,False,0,9,9,8,product_launch
+139884,809,,1676689.0,791577.0,2020-03-30 14:20:20,02/05/2022 07:56:10,Feature Launch: Version Naming and Quick Versions,False,0,87,83,82,product_launch
+130401,809,,828391.0,745544.0,2020-02-13 22:54:39,05/01/2020 01:26:04,Feature Launch: Get Code Help in Kaggle Notebooks,False,0,20,17,16,product_launch
+117903,809,,1248107.0,675868.0,2019-11-18 17:26:12,03/22/2021 10:53:13,Product Launch: Kaggle extension for JupyterLab,False,0,40,13,12,product_launch
+114053,809,,1588135.0,656086.0,2019-10-23 22:20:20,11/19/2021 08:12:23,Feature Launch: User Secrets,False,0,66,30,29,product_launch
+113250,809,,656145.0,651878.0,2019-10-18 03:19:39,10/24/2019 00:25:22,Feature Launch: Create Datasets from folders 📁,False,0,15,3,2,product_launch
+106160,809,,610176.0,610141.0,2019-08-28 13:31:22,08/28/2019 14:01:03,Feature Launch: Find Other References,False,0,8,2,1,product_launch
+105529,809,,1243665.0,606658.0,2019-08-23 21:18:17,03/18/2021 12:02:16,Feature Launch: Keep track of and stop all running notebooks from the editor,False,0,16,15,14,product_launch
+105009,809,,1088851.0,603703.0,2019-08-20 15:14:30,11/24/2020 01:49:39,Product Launch: Introducing the new Kaggle sitewide search,False,0,44,38,37,product_launch
+101200,809,,612467.0,583036.0,2019-07-23 23:29:13,08/29/2019 20:04:48,Feature Launch: Switch your Kernel type in the editor,False,0,33,27,26,product_launch
+97331,809,,563123.0,561777.0,2019-06-26 18:15:23,06/27/2019 23:33:06,Feature Launch: Manage your dataset settings in one place using JSON configuration 🚀,False,0,16,2,1,product_launch
+96959,809,,1051314.0,559971.0,2019-06-24 22:12:16,10/16/2020 11:27:55,Product Launch: Announcing the BigQuery + Kaggle Kernels Integration!,False,0,23,8,7,product_launch
+92832,809,,1093208.0,534193.0,2019-05-20 22:22:13,11/27/2020 14:40:44,Product Update: New and improved Datasets homepage,False,0,25,62,61,product_update
+91185,809,,1638059.0,525824.0,2019-05-01 19:19:15,01/04/2022 12:12:25,Feature Launch: Import scripts into notebook kernels,False,0,237,101,100,product_launch
+89671,809,,1396607.0,517934.0,2019-04-16 17:16:05,07/22/2021 09:10:47,Feature Launch: TensorBoard Support in Kaggle Kernels,False,0,33,40,39,product_launch
+83643,809,,1231752.0,487987.0,2019-03-11 19:17:40,03/09/2021 08:12:41,Feature Launch: New P100 GPUs,False,0,82,25,24,product_launch
+82507,809,,1141928.0,481800.0,2019-03-01 21:49:45,01/07/2021 02:26:25,Product update: Improving dataset pages 💅,False,0,20,11,10,product_update
+77211,809,,935985.0,453750.0,2019-01-10 17:56:52,07/19/2020 21:23:59,"Feature Launch: Create Datasets from GitHub, Remote URLs, and Kernels 🚀",False,0,36,5,4,product_launch
+75454,809,,443760.0,443524.0,2018-12-21 19:57:19,12/22/2018 11:25:26,Feature Launch: Private Search,False,0,10,4,3,product_launch
+73695,809,,789598.0,433281.0,2018-12-05 00:21:05,03/28/2020 20:02:07,Feature Launch: Newsfeed Redesign,False,0,20,6,5,product_launch
+71961,809,,1533324.0,423725.0,2018-11-18 23:44:56,10/03/2021 21:47:13,Feature Launch: Analyze Datasets in Data Studio,False,0,11,12,11,product_launch
+67547,809,,398051.0,398051.0,2018-10-03 13:45:27,10/03/2018 13:45:27,Feature Launch: Email Notifications,False,0,15,1,0,product_launch
+66720,809,,497401.0,393033.0,2018-09-24 18:26:39,03/23/2019 14:13:00,Feature Launch: New Python GPU Image for Kernels & Process Revamp,False,0,18,10,9,product_launch
+66460,809,,391395.0,391395.0,2018-09-21 18:18:22,09/21/2018 18:18:22,Feature Launch: Dataset Diff History,False,0,15,1,0,product_launch
+66457,809,,391391.0,391391.0,2018-09-21 18:16:35,09/21/2018 18:16:35,Feature Launch: Dataset Diff History,False,0,0,1,0,product_launch
+63544,809,,1649691.0,371973.0,2018-08-18 00:36:14,01/14/2022 14:08:32,Product Update: Enable Internet Access on Kernels,False,0,42,27,26,product_update
+63419,809,,371081.0,371081.0,2018-08-16 00:29:24,08/16/2018 00:29:24,Feature Launch: Improved Data Source Selection in Kernels,False,0,14,1,0,product_launch
+62759,809,,406327.0,366952.0,2018-08-06 19:37:50,10/19/2018 04:01:09,"Feature launch: Kerneler, a dataset kerneling bot",False,0,26,8,7,product_launch
+61922,809,,361825.0,361825.0,2018-07-25 06:31:50,07/25/2018 06:31:50,Feature Launch: Extended Data Types for Tabular Datasets,False,0,11,1,0,product_launch
+61884,809,,1366402.0,361594.0,2018-07-24 18:53:10,06/26/2021 18:05:21,Product Update: Create and Manage Kernels via Kaggle's API,False,0,35,4,3,product_update
+59413,809,,650002.0,346562.0,2018-06-22 00:21:07,10/16/2019 02:10:02,Feature Launch: Full Data Exploration,False,0,19,23,22,product_launch
+59393,809,,346430.0,346430.0,2018-06-21 17:28:17,06/21/2018 17:28:17,Feature launch: New Dataset Checklist,False,0,3,1,0,product_launch
+54980,809,,1479974.0,317026.0,2018-04-20 14:33:12,08/18/2021 18:12:11,Feature Launch: Kernels Collaboration,False,0,22,17,16,product_launch
+54925,809,,1195667.0,316734.0,2018-04-19 18:55:47,02/11/2021 01:46:41,Feature Launch: @-mentions,False,0,21,9,8,product_launch
+53857,809,,517593.0,309813.0,2018-04-06 02:40:07,04/16/2019 08:35:01,Feature Launch: Notifications,False,0,16,16,15,product_launch
+53624,809,,698223.0,307905.0,2018-04-02 17:12:36,12/19/2019 00:44:15,Feature Launch: Deletion for Datasets and Messages,False,0,20,6,5,product_launch
+52640,809,,1157344.0,300538.0,2018-03-21 17:36:35,01/17/2021 20:03:48,Product Update: Create and Manage Datasets via Kaggle's API,False,0,23,7,6,product_update
+52499,809,,1538384.0,299315.0,2018-03-20 19:31:12,10/08/2021 11:13:29,Product Update:  Increased Kernels Time Limit,False,0,71,19,18,product_update
+50755,809,,1622208.0,289091.0,2018-02-28 22:22:19,12/18/2021 13:32:41,Feature launch: Datasets Privacy & Collaboration,False,0,24,4,3,product_launch
+48726,809,,1601634.0,276677.0,2018-02-01 06:02:20,12/01/2021 13:55:46,Feature Launch: Kaggle API,False,0,92,60,59,product_launch
+47308,809,,267807.0,267607.0,2018-01-11 21:23:39,01/12/2018 11:24:10,"Feature Launch: Browse Tag Pages to Discover Datasets, Competitions, and Kernels",False,0,25,4,3,product_launch
+45472,809,,1601638.0,256371.0,2017-12-11 20:06:40,12/01/2021 13:58:36,Feature Launch: Use Kernels as a Data Source,False,0,43,18,17,product_launch
+45222,809,,255092.0,254926.0,2017-12-07 22:05:41,12/08/2017 09:18:47,Product Update: Competitions Listing,False,0,7,2,1,product_update
+44538,809,,1639888.0,250230.0,2017-11-30 00:00:18,01/06/2022 02:51:08,Feature Launch: Revamped Kernel Listing,False,0,20,12,11,product_launch
+43505,809,,1480544.0,244141.0,2017-11-15 17:27:09,08/19/2021 04:30:36,Product Launch: Increased Dataset Resources,False,0,47,28,27,product_launch
+39790,809,,457381.0,223080.0,2017-09-21 03:36:28,01/17/2019 10:04:25,Product Launch: Amped up Kernels Resources + Code Tips & Hidden Cells,False,0,80,41,40,product_launch
+39194,809,,1343393.0,219660.0,2017-09-09 00:06:51,06/10/2021 07:23:09,Feature launch: Find competitions and kernels with tags,False,0,24,19,18,product_launch
+34719,809,,670544.0,192764.0,2017-06-14 18:14:24,11/11/2019 15:03:36,Feature Launch: Default Privacy for Kaggle Kernels,False,0,20,14,13,product_launch
+32423,809,,443785.0,179766.0,2017-05-02 19:42:57,12/22/2018 12:26:33,Product Launch: Query Multiple Data Sources + More,False,0,41,27,26,product_launch

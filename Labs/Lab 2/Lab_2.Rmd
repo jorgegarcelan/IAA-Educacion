@@ -1,0 +1,122 @@
+---
+title: "Lab_2"
+output: html_document
+date: "2025-02-06"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Lab 2
+
+```{r}
+# Set working directory
+setwd("~/Desktop/UNI/5-MASTER IAA/SC3/IA EDUCACIÓN/IAA-Educacion/Labs/Lab 2")
+```
+
+## Tarea 2
+
+```{r}
+set.seed(123)  # Fijar semilla para reproducibilidad
+
+# Número de alumnos e ítems
+num_alumnos <- 300
+num_items <- 20
+
+# Generar habilidades de los alumnos (normalmente distribuidas)
+habilidades <- rnorm(num_alumnos, mean = 0, sd = 1)
+
+# Generar dificultades de los ítems (normalmente distribuidas)
+dificultades <- rnorm(num_items, mean = 0, sd = 1)
+
+# Matriz de respuestas (1 = correcto, 0 = incorrecto)
+respuestas <- matrix(0, nrow = num_alumnos, ncol = num_items)
+
+# Generar respuestas usando el modelo de Rasch
+for (i in 1:num_alumnos) {
+  for (j in 1:num_items) {
+    probabilidad_acierto <- exp(habilidades[i] - dificultades[j]) / (1 + exp(habilidades[i] - dificultades[j]))
+    respuestas[i, j] <- rbinom(1, 1, probabilidad_acierto)  # Simular respuesta binaria
+  }
+}
+
+# Convertir a data frame
+respuestas_df <- as.data.frame(respuestas)
+names(respuestas_df) <- paste0("Item_", 1:num_items)
+respuestas_df$Alumno <- 1:num_alumnos
+
+# Visualizar primeros datos
+head(respuestas_df)
+```
+
+
+## Tarea 3
+
+```{r}
+# Cargar librerías necesarias
+library(mirt)
+
+# Cargar los datos generados en la TAREA 2
+respuestas_df$Alumno <- NULL  # Eliminar la columna de identificador de alumno
+data_matrix <- as.matrix(respuestas_df)
+
+# Ajustar el modelo de Rasch (1PL)
+modelo_rasch <- mirt(data_matrix, 1, itemtype = "Rasch")
+
+# Ajustar el modelo 2PL (habilidad y discriminación)
+modelo_2pl <- mirt(data_matrix, 1, itemtype = "2PL")
+
+# Ajustar el modelo 3PL (habilidad, discriminación y adivinación)
+modelo_3pl <- mirt(data_matrix, 1, itemtype = "3PL")
+
+# Extraer parámetros estimados
+param_rasch <- coef(modelo_rasch, IRTpars = TRUE, simplify = TRUE)
+param_2pl <- coef(modelo_2pl, IRTpars = TRUE, simplify = TRUE)
+param_3pl <- coef(modelo_3pl, IRTpars = TRUE, simplify = TRUE)
+
+# Mostrar los parámetros estimados
+print("Parámetros del modelo Rasch (1PL):")
+print(param_rasch)
+
+print("Parámetros del modelo 2PL:")
+print(param_2pl)
+
+print("Parámetros del modelo 3PL:")
+print(param_3pl)
+
+# Obtener las habilidades estimadas para los alumnos
+habilidades_rasch <- fscores(modelo_rasch)
+habilidades_2pl <- fscores(modelo_2pl)
+habilidades_3pl <- fscores(modelo_3pl)
+
+# Mostrar las primeras habilidades estimadas
+print("Habilidades estimadas en el modelo Rasch:")
+print(head(habilidades_rasch))
+
+print("Habilidades estimadas en el modelo 2PL:")
+print(head(habilidades_2pl))
+
+print("Habilidades estimadas en el modelo 3PL:")
+print(head(habilidades_3pl))
+
+# Graficar curvas características de los ítems para el modelo 3PL
+plot(modelo_3pl, type = "trace", facet_items = FALSE)
+
+```
+
+
+## Tarea 4
+
+```{r}
+
+```
+
+
+## Tarea 5
+
+```{r}
+
+```
+
+
